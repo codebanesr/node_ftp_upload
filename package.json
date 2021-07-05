@@ -1,0 +1,24 @@
+{
+  "name": "codementor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./refactored/app.js",
+  "scripts": {
+    "start": "node ./refactored/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/ftp": "^0.3.31",
+    "@types/mysql": "^2.15.18",
+    "@types/node": "^16.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "ftp": "^0.3.10",
+    "mysql": "^2.18.1"
+  }
+}
