@@ -3,6 +3,8 @@ const { processFile } = require('./processfile');
 const mysql = require('mysql');
 require('dotenv').config();
 
+console.log({host: process.env.host})
+
 const ftpConnect = {
   host: "demo.wftpserver.com",
   user: "demo",
