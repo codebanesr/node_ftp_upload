@@ -6,9 +6,9 @@ require('dotenv').config();
 console.log({host: process.env.host})
 
 const ftpConnect = {
-  host: "demo.wftpserver.com",
-  user: "demo",
-  password: "demo"
+  host: process.env.HOST,
+  user: process.env.USER,
+  password: process.env.PASS
 }
 
 const dbConn = mysql.createPool({
